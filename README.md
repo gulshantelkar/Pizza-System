@@ -6,6 +6,10 @@
 
 2. Build and run the system with Docker Compose: ``` docker-compose up --build ```
 
+   
+## Database Design : 
+<img width="1038" alt="image" src="https://github.com/gulshantelkar/Pizza-System/assets/99161604/f9a17200-48da-437b-b4f1-a5efa85c022c">
+
 
 ## Create Pizza Base Endpoint
 
