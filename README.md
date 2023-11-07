@@ -6,7 +6,8 @@
 - Database: PostgreSQL
 - ORM: SQL Alchemy
 - Services: Docker, Celery, Redis
-- Added Unit Testing
+  
+## Added Unit Testing
 
 ### MySQL was causing problems with my path variables, which is why I switched to PostgreSQL.
 
