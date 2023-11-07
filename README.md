@@ -19,10 +19,8 @@
 
 2. Build and run the system with Docker Compose: ``` docker-compose up --build ```
 
-## I have also added Unit Testing for the API's 
+3. Open Postman and test the endpoints, Please follow the steps given below 
 
-1. Open new terminal : ``` cd pizza_delivery ```
-2. Run this Commabd: ```python manage.py test pizza_ordering.tests```
    
 ## Create Pizza Base Endpoint
 
@@ -67,6 +65,11 @@
 
 - Endpoint: `http://localhost:8000/pizza-ordering/api/order/id`
 - ![Image](https://github.com/gulshantelkar/Pizza-System/assets/99161604/a46fc478-9c81-4d42-8493-109fa94f1242)
+
+# I have also added Unit Testing for the API's 
+
+1. Open new terminal : ``` cd pizza_delivery ```
+2. Run this Commabd: ```python manage.py test pizza_ordering.tests```
 
 ## Get a Single Entry of Pizza Base, Cheese, Topping, Pizza
 
