@@ -2,9 +2,9 @@
 
 ## Running the System
 
-1. Change the directory to `pizza_delivery`.
+1. Change the directory to ``` cd pizza_delivery```.
 
-2. Build and run the system with Docker Compose:
+2. Build and run the system with Docker Compose: ``` docker-compose up --build ```
 
 
 ## Create Pizza Base Endpoint
