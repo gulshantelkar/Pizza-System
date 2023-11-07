@@ -9,7 +9,6 @@
 
 ### MySQL was causing problems with my path variables, which is why I switched to PostgreSQL.
 
-## I have also added Unit Testing for the API's 
    
 ## Database Design : 
 <img width="1038" alt="image" src="https://github.com/gulshantelkar/Pizza-System/assets/99161604/f9a17200-48da-437b-b4f1-a5efa85c022c">
@@ -19,6 +18,11 @@
 1. Change the directory to ``` cd pizza_delivery```.
 
 2. Build and run the system with Docker Compose: ``` docker-compose up --build ```
+
+## I have also added Unit Testing for the API's 
+
+1. Open new terminal : ``` cd pizza_delivery ```
+2. Run this Commabd: ```python manage.py test pizza_ordering.tests```
    
 ## Create Pizza Base Endpoint
 
