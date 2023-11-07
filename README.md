@@ -5,7 +5,7 @@
 - Framework: Django
 - Database: PostgreSQL
 - ORM: SQL Alchemy
-- Other Tool: Docker
+- Services: Docker, Celery, Redis
 
 ### MySQL was causing problems with my path variables, which is why I switched to PostgreSQL.
    
