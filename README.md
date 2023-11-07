@@ -6,6 +6,15 @@
 
 2. Build and run the system with Docker Compose: ``` docker-compose up --build ```
 
+
+## Tech Stack
+- Language: Python
+- Framework: Django
+- Database: PostgreSQL
+- ORM: SQL Alchemy
+- Other Tool: Docker
+
+# MySQL was causing problems with my path variables, which is why I switched to PostgreSQL.
    
 ## Database Design : 
 <img width="1038" alt="image" src="https://github.com/gulshantelkar/Pizza-System/assets/99161604/f9a17200-48da-437b-b4f1-a5efa85c022c">
