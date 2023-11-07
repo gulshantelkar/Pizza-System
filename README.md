@@ -22,7 +22,7 @@
 
 2. Build and run the system with Docker Compose: ``` docker-compose up --build ```
 
-3. Open Postman and test the endpoints, Please follow the steps given below 
+3. Open Postman and test the endpoints, Please follow the steps given below ( Need to add atleast 5 Toppings )
 
    
 ## Create Pizza Base Endpoint
