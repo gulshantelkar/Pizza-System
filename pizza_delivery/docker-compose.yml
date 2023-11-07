@@ -1,0 +1,40 @@
+version: '3.9'
+
+services:
+  web:
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    command: ["sh", "./start.sh"]
+    volumes:
+      - .:/app
+    depends_on:
+      - postgres_db
+      - redis
+      - celery
+
+  postgres_db:
+    image: postgres
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    environment:
+      POSTGRES_DB: gulshantelkar
+      POSTGRES_USER: gulshantelkar
+      POSTGRES_PASSWORD: '123'
+
+  redis:
+    image: redis
+    ports:
+      - "6379:6379"
+
+  celery:
+    build: .
+    command: ["celery", "-A", "pizza_delivery", "worker", "--loglevel=info", "-c", "4"]
+    volumes:
+      - .:/app
+    depends_on:
+      - redis
+
+volumes:
+  postgres_data:
