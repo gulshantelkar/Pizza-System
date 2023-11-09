@@ -4,7 +4,7 @@
 - Language: Python
 - Framework: Django
 - Database: PostgreSQL
-- ORM: SQL Alchemy
+- ORM: Django ORM
 - Services: Docker, Celery, Redis
 
 ## Additonal Info   
