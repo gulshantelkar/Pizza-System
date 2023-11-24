@@ -17,6 +17,12 @@
 ![image](https://github.com/gulshantelkar/Pizza-System/assets/99161604/533709a2-77aa-43c9-8e8f-e536ddda8243)
 
 
+# Unit Testing for the API's 
+
+1. I have added unit testing in the docker script so no need to expliclity run that
+-<img width="910" alt="Screenshot 2023-11-24 at 4 11 09 PM" src="https://github.com/gulshantelkar/Pizza-System/assets/99161604/516daff2-c585-4abc-aa62-32447c8d0449">
+
+   
 ## Running the System
 
 1. Change the directory to ``` cd pizza_delivery```.
@@ -82,10 +88,6 @@
 - <img width="996" alt="281056802-a46fc478-9c81-4d42-8493-109fa94f1242" src="https://github.com/gulshantelkar/Pizza-System/assets/99161604/e33d6709-cca0-4a59-bffa-6ff5139087c2">
 
 
-# I have also added Unit Testing for the API's 
-
-1. Open new terminal : ``` cd pizza_delivery ```
-2. Run this Commabd: ```python manage.py test pizza_ordering.tests```
 
 ## Get a Single Entry of Pizza Base, Cheese, Topping, Pizza
 
