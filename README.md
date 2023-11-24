@@ -35,45 +35,52 @@
 ## Create Cheese Endpoint
 
 - Endpoint: `localhost:8000/pizza-ordering/api/create_cheese/`
-- <img width="1047" alt="281054543-6875cf72-5102-40b1-9198-4f63e09b6f2c" src="https://github.com/gulshantelkar/Pizza-System/assets/99161604/981d28ae-0032-4da1-8c24-215d8de5ed88">
+- ![image](https://github.com/gulshantelkar/Pizza-System/assets/99161604/a5cde771-e50e-46ac-9309-e0b03654dc80)
 
 
 ## Create Toppings Endpoint
 
 - Endpoint: `localhost:8000/pizza-ordering/api/create_topping/`
-- <img width="1017" alt="281054304-8fdbcac6-9fa9-4e22-8fb8-11416339be7f" src="https://github.com/gulshantelkar/Pizza-System/assets/99161604/042a4797-b1a8-4c76-ae94-4a4e23a942df">
+- ![image](https://github.com/gulshantelkar/Pizza-System/assets/99161604/2f180f11-0c5c-4de7-b6f0-4159ea47bbb2)
+
 
 
 ## Create Pizza Endpoint
 
 - Endpoint: `localhost:8000/pizza-ordering/api/create_pizzas/`
 - Additional Info: You need to provide the ID assigned to the topping name.
-- <img width="996" alt="281056802-a46fc478-9c81-4d42-8493-109fa94f1242" src="https://github.com/gulshantelkar/Pizza-System/assets/99161604/27799752-cc1c-4ff4-98a6-b90737c3aa6e">
+- <img width="1047" alt="281054543-6875cf72-5102-40b1-9198-4f63e09b6f2c" src="https://github.com/gulshantelkar/Pizza-System/assets/99161604/0ab8a918-c3c6-45a3-b6ad-272d08e49e8f">
+
 
 
 ## Create Orders Endpoint
 
 - Endpoint: `localhost:8000/pizza-ordering/api/create_orders/`
 - Additional Info: Celery task will automatically be assigned; no need to run Redis server and Celery from your side. These services are also included in Docker.
-- <img width="996" alt="281056332-582c3447-c8e4-4052-aba3-efa90620456e" src="https://github.com/gulshantelkar/Pizza-System/assets/99161604/a194c494-3a0e-4876-898f-2e856747acf3">
+- <img width="1039" alt="281054961-3d556f29-a3a4-4f0d-80b6-4529c286384f" src="https://github.com/gulshantelkar/Pizza-System/assets/99161604/18524814-5307-4da9-9f17-61faadd25b9c">
+
 
 - The image shows that the Celery task is working on the conditions.
-- ![Image](https://github.com/gulshantelkar/Pizza-System/assets/99161604/29bd5256-e4b1-47ce-aa5c-83099342dce8)
+- <img width="1120" alt="281055437-29bd5256-e4b1-47ce-aa5c-83099342dce8" src="https://github.com/gulshantelkar/Pizza-System/assets/99161604/022ee7d7-5c91-48a7-846e-b2084aba79a8">
+
 
 ## List of All Orders Endpoint
 
 - Endpoint: `http://localhost:8000/pizza-ordering/api/orders/`
-- ![Image](https://github.com/gulshantelkar/Pizza-System/assets/99161604/32882baf-d236-408e-996d-9e6a4a238bfc)
+- <img width="1010" alt="281055677-32882baf-d236-408e-996d-9e6a4a238bfc" src="https://github.com/gulshantelkar/Pizza-System/assets/99161604/018bcb99-bee7-4e2f-8ef4-d749fc578976">
+
 
 ## List of All Pizzas
 
 - Endpoint: `http://localhost:8000/pizza-ordering/api/pizzas/`
-- ![Image](https://github.com/gulshantelkar/Pizza-System/assets/99161604/582c3447-c8e4-4052-aba3-efa90620456e)
+- <img width="996" alt="281056332-582c3447-c8e4-4052-aba3-efa90620456e" src="https://github.com/gulshantelkar/Pizza-System/assets/99161604/329cbb1b-fc34-459f-8592-a14fd53e9c2a">
+
 
 ## Get a Single Entry of an Order
 
 - Endpoint: `http://localhost:8000/pizza-ordering/api/order/id`
-- ![Image](https://github.com/gulshantelkar/Pizza-System/assets/99161604/a46fc478-9c81-4d42-8493-109fa94f1242)
+- <img width="996" alt="281056802-a46fc478-9c81-4d42-8493-109fa94f1242" src="https://github.com/gulshantelkar/Pizza-System/assets/99161604/e33d6709-cca0-4a59-bffa-6ff5139087c2">
+
 
 # I have also added Unit Testing for the API's 
 
