@@ -14,7 +14,8 @@
 
    
 ## Database Design : 
-<img width="1038" alt="image" src="https://github.com/gulshantelkar/Pizza-System/assets/99161604/f9a17200-48da-437b-b4f1-a5efa85c022c">
+![image](https://github.com/gulshantelkar/Pizza-System/assets/99161604/533709a2-77aa-43c9-8e8f-e536ddda8243)
+
 
 ## Running the System
 
@@ -28,29 +29,34 @@
 ## Create Pizza Base Endpoint
 
 - Endpoint: `localhost:8000/pizza-ordering/api/create_pizza_base/`
-- ![Image](https://github.com/gulshantelkar/Pizza-System/assets/99161604/401a426c-fd6b-41e6-80f4-45236aa8c261)
+- <img width="1033" alt="281053710-401a426c-fd6b-41e6-80f4-45236aa8c261" src="https://github.com/gulshantelkar/Pizza-System/assets/99161604/e6d874b3-394a-46bd-80bb-6013a1f92417">
+
 
 ## Create Cheese Endpoint
 
 - Endpoint: `localhost:8000/pizza-ordering/api/create_cheese/`
-- ![Image](https://github.com/gulshantelkar/Pizza-System/assets/99161604/4a9db9eb-759f-4ee7-8054-2014d864b2c1)
+- <img width="1047" alt="281054543-6875cf72-5102-40b1-9198-4f63e09b6f2c" src="https://github.com/gulshantelkar/Pizza-System/assets/99161604/981d28ae-0032-4da1-8c24-215d8de5ed88">
+
 
 ## Create Toppings Endpoint
 
 - Endpoint: `localhost:8000/pizza-ordering/api/create_topping/`
-- ![Image](https://github.com/gulshantelkar/Pizza-System/assets/99161604/8fdbcac6-9fa9-4e22-8fb8-11416339be7f)
+- <img width="1017" alt="281054304-8fdbcac6-9fa9-4e22-8fb8-11416339be7f" src="https://github.com/gulshantelkar/Pizza-System/assets/99161604/042a4797-b1a8-4c76-ae94-4a4e23a942df">
+
 
 ## Create Pizza Endpoint
 
 - Endpoint: `localhost:8000/pizza-ordering/api/create_pizzas/`
 - Additional Info: You need to provide the ID assigned to the topping name.
-- ![Image](https://github.com/gulshantelkar/Pizza-System/assets/99161604/6875cf72-5102-40b1-9198-4f63e09b6f2c)
+- <img width="996" alt="281056802-a46fc478-9c81-4d42-8493-109fa94f1242" src="https://github.com/gulshantelkar/Pizza-System/assets/99161604/27799752-cc1c-4ff4-98a6-b90737c3aa6e">
+
 
 ## Create Orders Endpoint
 
 - Endpoint: `localhost:8000/pizza-ordering/api/create_orders/`
 - Additional Info: Celery task will automatically be assigned; no need to run Redis server and Celery from your side. These services are also included in Docker.
-- ![Image](https://github.com/gulshantelkar/Pizza-System/assets/99161604/3d556f29-a3a4-4f0d-80b6-4529c286384f)
+- <img width="996" alt="281056332-582c3447-c8e4-4052-aba3-efa90620456e" src="https://github.com/gulshantelkar/Pizza-System/assets/99161604/a194c494-3a0e-4876-898f-2e856747acf3">
+
 - The image shows that the Celery task is working on the conditions.
 - ![Image](https://github.com/gulshantelkar/Pizza-System/assets/99161604/29bd5256-e4b1-47ce-aa5c-83099342dce8)
 
